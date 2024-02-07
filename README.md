@@ -1,6 +1,6 @@
 ![Certificate](Certificate.png)
 
-## [Responsive Web Design Certification](https://www.freecodecamp.org/learn/2022/responsive-web-design)
+## [JavaScript Algorithms and Data Structures Certification](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8)
 
 `[EN]` Developers use HTML and CSS to control the content and styling of a page. And they use JavaScript to make that page interactive.
 
@@ -63,4 +63,3 @@ Vous apprendrez également la Programmation Orientée Objet (OOP), la Programmat
 2. Learn Asynchronous Programming by Building an fCC Forum Leaderboard
 3. (Certification) Build a Pokémon Search App
 ```
-# freeCodeCamp_javascript-algorithms-and-data-structures
