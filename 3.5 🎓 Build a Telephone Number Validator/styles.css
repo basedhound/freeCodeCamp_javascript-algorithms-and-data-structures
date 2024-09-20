@@ -1,0 +1,88 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* General body styling */
+body {
+  font-family: 'Poppins', 'Tahoma', sans-serif;
+  background-color: #F5EFFF; /* Light background color */
+  color: #000; /* Black text color for contrast */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Header styling */
+header {
+  background-color: #A594F9; /* Header background color */
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Main section styling */
+main {
+  background-color: #E5D9F2;
+  border-radius: 8px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Input and buttons styling */
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#validator-section > label {
+font-size: 1.2rem;
+color: #7F6BD9;
+}
+
+#user-input {
+  width: calc(100% - 22px);
+  padding: 1rem;
+  border: 1px solid #CDC1FF; /* Border color for input */
+  border-radius: 4px;
+  font-size: 1rem;
+}
+#user-input:focus {
+  border-color: #6A5ACD; /* Change border color when focused */
+  box-shadow: 0 0 5px rgba(106, 90, 205, 0.5); /* Add subtle shadow for focus */
+  outline: none; /* Remove default outline */
+}
+
+button {
+  background-color: #A594F9; /* Button background color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #8C7BF7; /* Darker shade on hover */
+}
+
+/* Results div styling */
+#results-div {
+  font-size: 1.2rem;
+  color: #A594F9; /* Color for the results text */
+}

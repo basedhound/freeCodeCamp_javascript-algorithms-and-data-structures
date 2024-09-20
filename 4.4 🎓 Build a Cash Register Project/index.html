@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cash Register</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <main>
+    <section id="cash-register" class="section-container">
+      <h1>Cash Register</h1>
+      <!-- Container for customer cash input and calculate button -->
+      <div class="customer-cash">
+        <!-- Input field for entering the cash amount -->
+        <label for="cash">Customer Cash:</label>
+        <input type="number" id="cash" class="user-input" placeholder="Enter amount" />
+        <!-- Button to trigger the calculation of change due -->
+        <button class="btn-check" id="purchase-btn">Calculate</button>
+      </div>
+      <div id="change-due" class="customer-change"></div>
+
+      <!-- Container for displaying the price and cash drawer -->
+      <div class="register-display">
+          <p id="price-screen" class="price-screen"></p>
+        <div id="cash-drawer-display" class="cash-drawer"></div>
+      </div>
+    </section>
+  </main>
+  <!-- Link to the external JavaScript file -->
+  <script src="./script.js"></script>
+</body>
+
+</html>

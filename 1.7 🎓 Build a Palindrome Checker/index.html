@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="title">Est-ce un palindrome ?</h1>
+      <div class="palindrome">
+        <label for="text-input"
+          >Entrez un texte pour vérifier si c'est un palindrome :
+        </label>
+        <input class="input" id="text-input" value="" type="text" />
+        <button class="btn" id="check-btn">Check</button>
+        <div class="results hidden" id="result"></div>
+      </div>
+      <div class="definition">
+        <p>
+          Un <dfn>palindrome</dfn> est un mot ou une phrase qui est écrit de la même façon dans les deux sens, en ignorant les ponctuations, la majuscule et l'espacement.
+        </p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

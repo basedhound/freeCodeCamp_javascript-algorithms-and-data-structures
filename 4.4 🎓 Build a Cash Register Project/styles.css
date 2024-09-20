@@ -1,0 +1,105 @@
+/* Reset default margin, padding, and box-sizing for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define color variables for consistent theming */
+:root {
+  --primary-bg: #1e1e2f;
+  --accent-color: #a594f9; 
+  --secondary-bg: #2d2d3e; 
+  --text-color: #e5d9f2;
+  --highlight: #cdc1ff; 
+  --input-bg: #f5efff; 
+  --btn-bg: #4a4a4a; 
+  --btn-hover-bg: #f5efff; 
+}
+
+/* Basic styling for the body */
+body {
+  background-color: var(--primary-bg);
+  color: var(--text-color);
+  font-family: 'Tahoma', sans-serif; 
+}
+
+/* Main container styling */
+
+/* Container for layout */
+.section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 100vh;
+}
+
+/* Styling for main heading */
+h1 {
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  margin-bottom: 2rem;
+}
+
+/* Container for user input fields */
+.customer-cash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Styling for user input fields */
+.user-input {
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+  border: 2px solid var(--accent-color);
+  border-radius: 5px;
+  background-color: var(--input-bg);
+  color: var(--primary-bg); 
+}
+
+/* Styling for change due display area */
+.customer-change {
+  font-size: 1.2rem;
+  padding: 1.5rem 5rem;
+  background-color: var(--secondary-bg);
+  border-radius: 10px;
+}
+
+/* Styling for check button */
+.btn-check {
+  background-color: var(--highlight);
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+
+  border: none;
+  border-radius: 5px;
+  
+  cursor: pointer;
+  transition: 0.2s ease; 
+}
+
+/* Hover effect for check button */
+.btn-check:hover {
+  background-color: var(--btn-hover-bg); 
+}
+
+/* Styling for price display screen */
+.register-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+    padding: 1rem 3rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+
+  color: var(--text-color); 
+  background-color: var(--secondary-bg);
+  border: 3px solid var(--accent-color);
+}
